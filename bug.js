@@ -1,0 +1,1 @@
+I encountered an unexpected behavior when using Tailwind CSS's `@apply` directive within a CSS-in-JS environment (e.g., styled-components).  The utility classes weren't being applied correctly, resulting in no visual changes. I initially had this code: `const MyComponent = styled.div` + `{ @apply text-blue-500; }`. This did not produce the expected blue text.
